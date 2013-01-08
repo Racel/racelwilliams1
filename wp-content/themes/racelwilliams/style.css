@@ -1,0 +1,13 @@
+/*
+Theme Name:     Racel Williams Portfolio
+Theme URI:      http://racelwilliams.com
+Description:    Child theme for Sampression-Lite
+Author:         Racel Williams
+Author URI:     http://racelwilliams.com/about/
+Template:       sampression-lite
+Version:        0.1.0
+*/
+
+@import url("../sampression-lite/style.css");
+
+@import url("../sampression-lite/rtl.css");
