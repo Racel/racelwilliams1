@@ -147,8 +147,8 @@ function sampression_content_nav( $nav_id ) {
 				wp_pagenavi();
 			} else {
 			?>
-                <div class="nav-previous alignleft"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'sampression' ) ); ?></div>
-                <div class="nav-next alignright"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'sampression' ) ); ?></div>
+                <div class="nav-previous alignleft"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older work', 'sampression' ) ); ?></div>
+                <div class="nav-next alignright"><?php previous_posts_link( __( 'Newer work <span class="meta-nav">&rarr;</span>', 'sampression' ) ); ?></div>
             <?php
 			}
 			?>
@@ -498,7 +498,7 @@ function filter_cat_callback() {
         <?php the_excerpt(); ?>
       </div>
       <!-- .entry -->
-
+<div>Racel Testing</div>
       <div class="meta clearfix">
 			<?php 
                 printf( __( '%3$s <time class="col" datetime="2011-09-28"><span class="ico">Published on</span>%2$s</time> ', 'sampression' ),'meta-prep meta-prep-author',
@@ -523,7 +523,7 @@ function filter_cat_callback() {
             <?php endif; ?>
         
         
-      </div>
+      </div>-->
       <div class="meta">
         <div class="cats"><?php printf(__('<span class="ico">Categories</span><div class="overflow-hidden cat-listing">%s</div>', 'sampression'), get_the_category_list(', ')); ?></div>
       </div>

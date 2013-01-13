@@ -66,7 +66,7 @@ function(){
 // ==============================================================
 function pageScroll(scrollPoint){ // obj: click object, scrollPoint:Location to reach on page scroll
     var divOffset = jQuery(scrollPoint).offset().top;      
-    jQuery('html,body').animate({scrollTop: divOffset}, 500); 
+    //jQuery('html,body').animate({scrollTop: divOffset}, 500); 
 }
 
 //==============================================================
